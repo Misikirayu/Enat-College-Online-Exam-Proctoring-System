@@ -1,67 +1,82 @@
-# Getting Started with Create React App
+# **Enat-College-Online-Exam-Proctoring-System: Automatic Exam Proctoring Tool**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Available Scripts
+Enat-College-Online-Exam-Proctoring-System is an AI-powered online exam proctoring tool that allows professors to create, manage, and monitor exams in real-time. With a user-friendly interface and powerful backend, Enat-College-Online-Exam-Proctoring-System ensures a secure and fair exam environment by leveraging state-of-the-art AI technologies.
 
-In the project directory, you can run:
+## **Features**
 
-### `yarn start`
+### **Automatic Proctoring**
+- **Person Detection:** Detects when a student leaves the frame.
+- **Multiple People Detection:** Monitors for additional people in the frame.
+- **Mobile Detection:** Detects the use of mobile phones during the exam.
+- **Prohibited Object Detection:** Identifies items like books or laptops.
+- **Tab Change Detection:** Tracks when students switch tabs or open other applications.
+- **Prohibited Key Press Detection:** Detects the use of keys like Ctrl and Alt to prevent cheating.
+- **Right-Click Prevention:** Disables right-clicking during the exam.
+- **Exam Restart:** Allows exam restart within the set exam period without time recovery.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### **Professor Features**
+- **Intuitive Exam Creation:** Easily create exams and generate unique exam codes.
+- **Real-Time Monitoring:** Track the status of all students during the exam.
+- **Advanced Logs:** Dynamic student logs with sorting, pagination, and search functionality.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## **Tech Stack**
+- **Frontend:** React.js, Redux, Material-UI, Materialize.css
+- **Backend:** Node.js, Express.js, Passport.js, JWT
+- **Database:** MongoDB Atlas, Mongoose
+- **AI/ML:** TensorFlow.js implementation of CocoSSD Object Detection Model
 
-### `yarn test`
+## **Getting Started**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Installation**
 
-### `yarn build`
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Misikirayu/Enat-College-Online-Exam-Proctoring-System.git
+2. **Navigate to the Project Directory:**
+     ```bash
+     cd Enat-College-Online-Exam-Proctoring-System
+3. **Install Dependencies:**
+     ```bash
+     npm install
+4. **Navigate to the Client Directory and Install Dependencies:**
+     ```bash
+     cd client
+     npm install
+5. **Return to the Root Directory and Run the Application:**
+     ```bash
+     cd ..
+     npm run dev
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **Usage**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### **As a Professor:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Open [Enat-College-Online-Exam-Proctoring-System](/Enat-College-Online-Exam-Proctoring-System).
+2. Register as an Instructor.
+3. Log in and create your exam by filling out the required details.
+4. Distribute the generated exam code to your students.
+5. Monitor the exam in real-time using the exam code.
 
-### `yarn eject`
+#### **As a Student:**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Open [Enat-College-Online-Exam-Proctoring-System](/Enat-College-Online-Exam-Proctoring-System).
+2. Register as a Student.
+3. Log in and start the exam using the code provided by your professor.
+4. Ensure you're in a well-lit environment and avoid prohibited actions.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## **About the Author**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Hello! I'm Misikir Ayalew, a 3RD YEAR COMPUTER SCIENCE STUDENT , HARAMAYA UNIVERSITY.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## **Contributing**
 
-## Learn More
+Contributions are welcome! Please submit a pull request or open an issue for any improvements or bug fixes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
